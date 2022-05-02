@@ -1,0 +1,14 @@
+org_name: nullstone
+name: flask-cookies
+friendly_name: Flask Cookies
+description: Automatically inject SECRET_KEY into flask applications to encrypt cookies (and the session)
+category: capability/secrets
+type: secrets/flask-cookies
+appCategories:
+    - app/container
+    - app/serverless
+layer: service
+is_public: true
+provider_types:
+    - aws
+    - gcp
